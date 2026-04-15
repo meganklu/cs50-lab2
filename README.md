@@ -23,7 +23,7 @@ This only copies the directory and files in the directiory; it does not clone th
 ```bash
 scp -r plink:~/lab2 /Users/meganlu/Desktop/COSC050/
 ```
-### Git clone
+### Git clone via GitHub
 1. Created a new repository in GitHub.
 2. Added a remote to the existing lab2 repository in plink.
     ```bash
@@ -33,4 +33,9 @@ scp -r plink:~/lab2 /Users/meganlu/Desktop/COSC050/
 3. Cloned the repository on my local machine.
     ```bash
     git clone https://github.com/meganklu/cs50-lab2.git
-    ``` 
+    ```
+### Git clone directly from plink to local machine
+**Best command to use for this prompt.**
+```bash
+git clone ssh://sp26megan@plink.cs.dartmouth.edu/~/lab2
+``` 
