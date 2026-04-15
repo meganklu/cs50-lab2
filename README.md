@@ -20,7 +20,9 @@ This only copies the directory and files in the directiory; it does not clone th
 ### Git clone
 1. Created a new repository in GitHub.
 2. Added a remote to the existing lab2 repository in plink.
-`git remote add origin git@github.com:meganklu/cs50-lab2.git`
-`git push -u origin main`
+    ```
+    git remote add origin git@github.com:meganklu/cs50-lab2.git
+    git push -u origin main
+    ```
 3. Cloned the repository on my local machine.
-`git clone https://github.com/meganklu/cs50-lab2.git` 
+    `git clone https://github.com/meganklu/cs50-lab2.git` 
