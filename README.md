@@ -17,7 +17,11 @@ Check if the file is under the tracked files of the repository with `git status`
 
 ## 1.2 Obtaining a local copy
 > How would you go about cloning the lab2 repo on your local machine? What command would you use for that? 
-
+### **Git clone directly from plink to local machine**
+**Best command to use for this prompt.**
+```bash
+git clone ssh://sp26megan@plink.cs.dartmouth.edu/~/lab2
+```
 ### Directly transfering the directory with secure copy command
 This only copies the directory and files in the directiory; it does not clone the repository (does not connect to git as a remote copy).
 ```bash
@@ -34,8 +38,3 @@ scp -r plink:~/lab2 /Users/meganlu/Desktop/COSC050/
     ```bash
     git clone https://github.com/meganklu/cs50-lab2.git
     ```
-### Git clone directly from plink to local machine
-**Best command to use for this prompt.**
-```bash
-git clone ssh://sp26megan@plink.cs.dartmouth.edu/~/lab2
-``` 
