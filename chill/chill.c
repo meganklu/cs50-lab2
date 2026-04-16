@@ -27,7 +27,7 @@ float calculateChill(float temp, float vel);
 /* ***************************
  * main
  */
-int main(int argc, char *argv[])
+int main(const int argc, const char* argv[])
 {
 	const char* progName = argv[0];	// name of this program
 	const float minTemp = -99.0; // minimum allowed temperature input
