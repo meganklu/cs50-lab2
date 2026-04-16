@@ -1,0 +1,8 @@
+
+Test file
+- Tests multiple non-letters in a row
+- Tests numbers 1234567890 between words like t1h2i3s
+- Tests multiple blank lines between words
+
+
+- Tests symbols !@#$%^&*()[]`\/;:'"<>,.near~-=+_text 

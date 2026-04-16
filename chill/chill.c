@@ -7,10 +7,6 @@
  * wind speed.
  * 
  * Usage: chill [temperature [velocity]]
- * chill
- * chill temperature
- * chill temperature velocity
- *
  * where temperature is expressed as a floating-point number in degrees F 
  * and velocity is a floating-point number in miles per hour. 
  *
