@@ -6,6 +6,7 @@
 * [testing.out](testing.out): output from testing script
 * [test.txt](test.txt): file containing test cases including different combinations of non-letter and letter characters
 * [empty.txt](empty.txt): file containing only non-letter characters
+
 Note: tested multiple special filename `-` outside of bash script:
 ```bash
 $ ./words - "test.txt" - "empty.txt"
